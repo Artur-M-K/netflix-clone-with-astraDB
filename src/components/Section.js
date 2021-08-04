@@ -14,7 +14,6 @@ const Section = ({genre}) => {
     const responseBody = await response.json();
     setMovies(responseBody.data.movies_by_genre.values);
     setPageState(responseBody.data.movies_by_genre.pageState);
-    console.log(pageState)
     
   }
 
@@ -23,7 +22,7 @@ const Section = ({genre}) => {
   }, [])
     return ( 
         <>
-        <h1 id={genre}>{genre}</h1>
+        <h2 id={genre}>{genre}</h2>
             {movies && (
                 <div className="movie-section">
                     {movies.map((movie, index) => (

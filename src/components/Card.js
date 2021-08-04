@@ -9,7 +9,7 @@ const Card = ({movie, index}) => {
     const handler = () => {
         setIsActive(!isActive)
     }
-    console.log(isActive)
+    
     return ( 
         <>
         <div 

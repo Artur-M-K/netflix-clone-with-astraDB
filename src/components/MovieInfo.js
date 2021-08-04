@@ -1,6 +1,6 @@
 
 const MovieInfo = ({onClick, movie}) => {
-    console.log(movie)
+   
     return ( 
         <div className="movie-info">
             <h1 className="movie-info-header">INFO</h1> 

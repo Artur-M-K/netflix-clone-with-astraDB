@@ -18,7 +18,6 @@ const App = () => {
     const responseBody = await response.json();
     setGenres(responseBody.data.reference_list.values);
   }
- console.log(limit)
 
   useEffect (() => {
     fetchData()
