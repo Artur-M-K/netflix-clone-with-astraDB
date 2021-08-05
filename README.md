@@ -1,12 +1,11 @@
 # Basic Netflix Clone
 
-## [Live DEMO](https://netflix-clone-astradb.netlify.app/)
-
-
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+
+## [Live DEMO](https://netflix-clone-astradb.netlify.app/)
 
 ## General info
  In this project I built a simple Netflix clone app based on Ania Kubow tutorial. I learned how to fetch data from Cassandra database using the GraphQL API, and learn how to use pagination and slicing. 
